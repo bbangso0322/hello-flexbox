@@ -13,7 +13,10 @@ Flex의 구성은 여러 자식요소인 flex item과 상위 부모 요소인 fl
 자식요소의 나열 방향을 지정하는 속성이다. 기본값은 `'row'`이며 `'row-reverse'`, `'column'`, `'column-reverse'` 가 있다.
 
 <style>
-    
+.container{
+    display: flex;
+    flex-direction: row;
+}
 </style>
 
 <a name="footnote_1">1</a>: 사진 출처: https://www.w3.org/TR/css-flexbox-1/#box-model
