@@ -7,70 +7,18 @@
 ### Flexbox의 구성
 ![flexbox기본](img/flexbox기본.png)  
 
-Flex의 구성은 여러 자식요소인 flex item과 상위 부모 요소인 flex container로 이루어져 있다. 위 사진[^footnote_1]을 참고하면서 다음 flexbox가 동작하는 방식을 이해하도록 한다.  
+Flex의 구성은 여러 자식요소인 flex item과 상위 부모 요소인 flex container로 이루어져 있다. 위 사진<sup>[1](#footnote_1)</sup>을 참고하면서 다음 flexbox가 동작하는 방식을 이해하도록 한다.  
 
 #### flex-direction
 자식요소의 나열 방향을 지정하는 속성이다. 기본값은 `'row'`이며 `'row-reverse'`, `'column'`, `'column-reverse'` 가 있다.  
 <br/>
 
-**row**
-<div style="display: flex; flex-direction: row">
-    <div style="width: 50px;
-    background-color: red;
-    text-align: center;
-    font-size: 30px
-    ">1</div>
-    <div style="width: 50px;
-    background-color: green;
-    text-align: center;
-    font-size: 30px
-    ">2</div>
-    <div style="width: 50px;
-    background-color: blue;
-    text-align: center;
-    font-size: 30px
-    ">3</div>
-</div>
-<br/><br/>
-
-**row-reverse**
-<div style="display: flex; flex-direction: row-reverse">
-    <div style="width: 50px;
-    background-color: red;
-    text-align: center;
-    font-size: 30px
-    ">1</div>
-    <div style="width: 50px;
-    background-color: green;
-    text-align: center;
-    font-size: 30px
-    ">2</div>
-    <div style="width: 50px;
-    background-color: blue;
-    text-align: center;
-    font-size: 30px
-    ">3</div>
-</div>
-
-**column**
-<div style="display: flex; flex-direction: column">
-    <div style="width: 50px;
-    background-color: red;
-    text-align: center;
-    font-size: 30px
-    ">1</div>
-    <div style="width: 50px;
-    background-color: green;
-    text-align: center;
-    font-size: 30px
-    ">2</div>
-    <div style="width: 50px;
-    background-color: blue;
-    text-align: center;
-    font-size: 30px
-    ">3</div>
-</div>
-<br/>  
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYdxbMe" data-user="bbangso0322" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/bbangso0322/pen/zYdxbMe">
+  Untitled</a> by 방소윤 (<a href="https://codepen.io/bbangso0322">@bbangso0322</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <br/>
-[^footnote_1]: 사진 출처 - https://www.w3.org/TR/css-flexbox-1/#box-model
+<a name="footnot_1">1 </a>: 사진 출처 - https://www.w3.org/TR/css-flexbox-1/#box-model
