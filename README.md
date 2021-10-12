@@ -7,16 +7,70 @@
 ### Flexbox의 구성
 ![flexbox기본](img/flexbox기본.png)  
 
-Flex의 구성은 여러 자식요소인 flex item과 상위 부모 요소인 flex container로 이루어져 있다. 위 사진<sup>[1](#footnote_1)</sup>을 참고하면서 다음 flexbox가 동작하는 방식을 이해하도록 한다.  
+Flex의 구성은 여러 자식요소인 flex item과 상위 부모 요소인 flex container로 이루어져 있다. 위 사진[^footnote_1]을 참고하면서 다음 flexbox가 동작하는 방식을 이해하도록 한다.  
 
 #### flex-direction
-자식요소의 나열 방향을 지정하는 속성이다. 기본값은 `'row'`이며 `'row-reverse'`, `'column'`, `'column-reverse'` 가 있다.
+자식요소의 나열 방향을 지정하는 속성이다. 기본값은 `'row'`이며 `'row-reverse'`, `'column'`, `'column-reverse'` 가 있다.  
+<br/>
 
-<style>
-.container{
-    display: flex;
-    flex-direction: row;
-}
-</style>
+**row**
+<div style="display: flex; flex-direction: row">
+    <div style="width: 50px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px
+    ">1</div>
+    <div style="width: 50px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px
+    ">2</div>
+    <div style="width: 50px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px
+    ">3</div>
+</div>
+<br/><br/>
 
-<a name="footnote_1">1</a>: 사진 출처: https://www.w3.org/TR/css-flexbox-1/#box-model
+**row-reverse**
+<div style="display: flex; flex-direction: row-reverse">
+    <div style="width: 50px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px
+    ">1</div>
+    <div style="width: 50px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px
+    ">2</div>
+    <div style="width: 50px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px
+    ">3</div>
+</div>
+
+**column**
+<div style="display: flex; flex-direction: column">
+    <div style="width: 50px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px
+    ">1</div>
+    <div style="width: 50px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px
+    ">2</div>
+    <div style="width: 50px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px
+    ">3</div>
+</div>
+<br/>  
+
+<br/>
+[^footnote_1]: 사진 출처 - https://www.w3.org/TR/css-flexbox-1/#box-model
