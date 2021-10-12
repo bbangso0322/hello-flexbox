@@ -13,12 +13,11 @@ Flex의 구성은 여러 자식요소인 flex item과 상위 부모 요소인 fl
 자식요소의 나열 방향을 지정하는 속성이다. 기본값은 `'row'`이며 `'row-reverse'`, `'column'`, `'column-reverse'` 가 있다.  
 <br/>
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="zYdxbMe" data-user="bbangso0322" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/bbangso0322/pen/zYdxbMe">
+<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/bbangso0322/embed/zYdxbMe?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/bbangso0322/pen/zYdxbMe">
   Untitled</a> by 방소윤 (<a href="https://codepen.io/bbangso0322">@bbangso0322</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 <br/>
 <a name="footnot_1">1 </a>: 사진 출처 - https://www.w3.org/TR/css-flexbox-1/#box-model
