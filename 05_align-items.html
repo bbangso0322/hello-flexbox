@@ -34,6 +34,18 @@
     .a-baseline {
       align-items: baseline;
     }
+    .a-self-start{
+      align-self: flex-start;
+    }
+    .a-self-stretch{
+      align-self: stretch;
+    }
+    .a-self-center{
+      align-self: center;
+    }
+    .a-self-end{
+      align-self: flex-end;
+    }
     .item4 {
       font-size: 20px;
     }
@@ -79,6 +91,14 @@
 		<div class="item item4">1</div>
 		<div class="item item5">2</div>
 		<div class="item item6">3</div>
+	</div>
+
+  <p>item1-algin-self: start, item1-algin-self: end, item1-algin-self: center...</p>
+  <div class="container">
+		<div class="item item1 a-self-start">1</div>
+		<div class="item item2 a-self-end">2</div>
+		<div class="item item3 a-self-center">3</div>
+    <div class="item item5 a-self-stretch">4</div>
 	</div>
 </body>
 </html>
