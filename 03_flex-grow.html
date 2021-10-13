@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-direction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p>* container width: 700px, item width: 200px</p>
+    <p>flex-grow: 0</p>
+    <div class="container direction-row">
+		<div class="item item1">1</div>
+		<div class="item item2">2</div>
+	</div>
+	<br/>
+
+	<p>item1-flex-grow: 1  , item2-flex-grow: 2</p>
+	<div class="container direction-row">
+		<div class="item item1 grow-1">1</div>
+		<div class="item item2 grow-2">2</div>
+	</div>
+	<br/>
+	<p>700 - 200*2 = 300px 만큼 자리가 남게되는데 이를 1:2 비율로 나눠 가진다.</p>
+</body>
+</html>
